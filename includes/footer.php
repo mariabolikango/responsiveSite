@@ -3,4 +3,4 @@
         Développé par Letecode &copy;2023
     </p>
 </div>
- 
+<script src="../js/main.js"></script> 

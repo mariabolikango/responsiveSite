@@ -17,7 +17,7 @@ body{
     flex-direction: column;
     font-family: 'Montserrat-Regular';
 }
-.toggle-btn{
+.navbar #menu-btn{
     display: none;
 }
 .container{
@@ -207,43 +207,6 @@ textarea, select{
 #formulaire div{
     width: 48%;
 }
-.navbar .toggle-btn{
-    font-size: 20px;
-    float: right;
-    /*margin-right: 2%;*/
-    display: none;
-    color: white;
-}
-
-.menuMobile{
-    display: none;
-    position: fixed;
-    right: 10px;
-    top: 0;
-    width: 70%;
-    height: 0;
-    background-color: var(--bgc-container);
-    backdrop-filter: blur(15px);
-    border-radius: 6px;
-    overflow: hidden;
-
-}
-.menuMobile li{
-    padding: 0.7rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.menuMobile li a{
-    text-decoration: none;
-    color: rgb(154, 156, 158);
-}
-.menuMobile li a:hover{
-    color: white;
-}
-.menuMobile.open{
-    height: 200px;
-}
 .footer{
 color: #fff;
     background-color: var(--bgc-navbar);
@@ -260,11 +223,13 @@ color: #fff;
     .navbar ul, .navbar ul.cache{
         display: none;
     }
-    .navbar .toggle-btn{
-        display: block;
+    .navbar #menu-btn{
+        display: flex;
+        align-items: center;
     }
-    .menuMobile{
+    .navbar ul.show{
         display: block;
+        background-color: #EEEEEE;
     }
     .container{
         margin: 8px;

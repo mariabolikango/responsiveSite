@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
     <link rel="shortcut icon" href="../images/IMG_4440.PNG" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -59,6 +59,6 @@
     <?php 
     include_once("../includes/footer.php");
     ?>
-    <script src="../js/main.js"></script> 
+
 </body>
 </html>

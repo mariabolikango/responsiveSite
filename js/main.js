@@ -1,9 +1,12 @@
-const toggleBtn = document.querySelector('.toggle-btn');
-const toggleBtnIcon = document.querySelector('.toggle-btn i');
-const menuMobile = document.querySelector('.menuMobile');
+const btnshow = document.querySelector("#menu-btn");
+const rep = document.querySelector("#link");
 
-toggleBtn.addEventListener('click', function(){
-    menuMobile.classList.toggle('open');
-    const isOpen = menuMobile.classList.contains('open');
-    toggleBtnIcon.classList = isOpen ? 'fa fa-close' : 'fa fa-bars';
-});
+const clikbtn = function () {
+    rep.classList.toggle("cache") 
+    rep.classList.toggle("show") 
+
+    btnshow.classList.toggle("bi-x")
+    btnshow.classList.toggle("bi-list")
+  
+};
+btnshow.addEventListener("click", clikbtn);
