@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
     <link rel="shortcut icon" href="../images/IMG_4440.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <?php 
     include_once("../includes/header.php");
     ?>
-<div class="container">
-    <div class="section">
-       <h2>Nous contacter</h2>
-       <p>Remplissez ce formulaire pour nous laisser un message</p>
+<div class="container contact">
+       <h2 class="sectionCont">Nous contacter</h2>
+       <p >Remplissez ce formulaire pour nous laisser un message</p>
        <form id="formulaire">
             <div class="contact-form">
                 <label for="nom">Nom</label>
@@ -38,7 +38,6 @@
                 <input type="text" id="obj">
             </div>
         </form>
-    </div>
 </div>
     <div class="boite-lettre">
     <div class="container">
@@ -60,5 +59,6 @@
     <?php 
     include_once("../includes/footer.php");
     ?>
+    <script src="../js/main.js"></script> 
 </body>
 </html>

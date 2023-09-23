@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Communauté Letecode</title>
     <link rel="shortcut icon" href="../images/IMG_4440.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -18,7 +20,7 @@
             <p>
                 Une grande communauté des développeurs du monde entier 
             </p>
-            <a href="contacts.php?page=contact"class="btn link">Rejoindre</a>
+            <a href="contact.php?page=contact" class="btn link">Rejoindre</a>
         </div>
     </div>
     <div class="section learn">
@@ -99,5 +101,6 @@
     <?php 
     include_once("../includes/footer.php");
     ?>
+    <script src="../js/main.js"></script> 
 </body>
 </html>
